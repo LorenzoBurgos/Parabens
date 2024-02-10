@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family:'Roboto', sans-serif;
+    background: linear-gradient(180deg, #ff69f8, #FFD700 );
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.parent{
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 12.5%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 30px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+p{
+    display: block;
+    font-weight: Bold;
+    font-size: 36px;
+}
+
+button {
+    background-color: crimson;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid #000000;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin: 20px auto;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+.warning{
+    background-color: #fff;
+    border: 4px solid #000;
+    border-radius: 5px;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.hidden{
+    display: none;
+}
+
+.aviso{
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+}
+
+.No{
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+}
